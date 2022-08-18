@@ -1,0 +1,22 @@
+int main() {
+   int n,num;
+   int flag=0;
+   printf("enter size");
+   scanf("%d",&n);
+   int i=num;
+   while(n>0)
+   {
+       printf("enter numbers\n");
+       scanf("%d",&num);
+       if(i==num)
+       {
+       flag=1;
+       }
+       n--;
+   }
+   if(flag==0)
+   printf("unique");
+   else
+   printf("duplicate");
+    return 0;
+}
