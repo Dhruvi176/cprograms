@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    scanf("%d",&a);
+    checkevenodd(a);
+    
+    return 0;
+}
+void checkevenodd(int a)
+{
+    if(a%2==0)
+    printf("even");
+    else
+    printf("odd");
+}
